@@ -8,8 +8,6 @@
 #include <glm/gtx/hash.hpp>
 #include <unordered_map>
 
-#include <boost/range.hpp>
-#include <boost/range/join.hpp>
 
 // Custom specialization of std::hash injected in namespace std
 template <> struct std::hash<Vertex> {
