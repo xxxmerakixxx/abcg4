@@ -34,7 +34,44 @@ Com o botão direito do mouse é possível movimentar o fundo 3D. Conforme o fun
 
 ## Alterações realizadas
 
-  - Inclusão de um background 3d para dar a impressão de um fundo contínuo utilizando um mapa 3D:
+  - Inclusão de um background 3Dpara dar a impressão de um fundo contínuo utilizando um mapa 3D:
+
+**Alteração no window.cpp:**
+
+ ```python
+void Window::initializeSkybox() {
+  auto const assetsPath{abcg::Application::getAssetsPath()};
+  auto const path{assetsPath + "shaders/" + m_skyShaderName};
+  auto const path1{path + ".vert"};
+  auto const path2{path + ".frag"};
+  m_skyProgram = abcg::createOpenGLProgram(
+        {{.source = path + ".vert", .stage = abcg::ShaderStage::Vertex},
+         {.source = path + ".frag", .stage = abcg::ShaderStage::Fragment}});
+  // source = path + ".frag"
+
+  glGenBuffers(1, &m_skyVBO);
+  glBindBuffer(GL_ARRAY_BUFFER, m_skyVBO);
+  glBufferData(GL_ARRAY_BUFFER, sizeof(m_skyPositions), m_skyPositions.data(),
+               GL_STATIC_DRAW);
+  glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+  GLint positionAttribute{glGetAttribLocation(m_skyProgram, "inPosition")};
+
+  glGenVertexArrays(1, &m_skyVAO);
+
+  glBindVertexArray(m_skyVAO);
+
+  glBindBuffer(GL_ARRAY_BUFFER, m_skyVBO);
+  glEnableVertexAttribArray(positionAttribute);
+  glVertexAttribPointer(positionAttribute, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
+  glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+  glBindVertexArray(0);
+}
+
+ ```
+**Alterações no model.cpp:**
+
     
  ```python
 
