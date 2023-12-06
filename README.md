@@ -1,5 +1,3 @@
-# abcg3
-
 # Pokémon
 ## Integrantes:
 Isabela Lima Sigaki RA: 11201810447
