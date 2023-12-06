@@ -9,7 +9,7 @@ Júlia Oliveira Costa RA: 11201810014
 ![build workflow](https://github.com/hbatagelo/abcg/actions/workflows/build.yml/badge.svg)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/hbatagelo/abcg)](https://github.com/hbatagelo/abcg/releases/latest)
 
-Desenvolvimento do Projeto Aquário como atividade para a disciplina [MCTA008-17 Computer Graphics](http://professor.ufabc.edu.br/~harlen.batagelo/cg/) na [UFABC](https://www.ufabc.edu.br/).
+Desenvolvimento do Projeto Pokémon como atividade para a disciplina [MCTA008-17 Computer Graphics](http://professor.ufabc.edu.br/~harlen.batagelo/cg/) na [UFABC](https://www.ufabc.edu.br/).
 
 [Documentation](https://hbatagelo.github.io/abcg/abcg/doc/html/) | [Release notes](CHANGELOG.md)
 
@@ -22,15 +22,19 @@ O projeto foi criado utilizando o framework ABCg que facilita o desenvolvimento 
 
 O objetivo consiste em desenvolver uma aplicação que mostre gráficos 3D com primitivas do OpenGL, como na atividade 2, mas que utilize shaders de iluminação e texturização.
 
-O projeto é uma aplicação usando moldes 3D da animação Pokémon. Foram utilizados como base os projetos "viewer1" que apresenta uma implementação de um visualizador de modelos geométricos 3D que permite a interação através do trackball virtual e o "starfields" que é um campo estelar em perspectiva. O projeto apresenta um Pikachu como objeto principal e no fundo temos um "starfield" de pequenos pikachus. Além disso, o projeto apresenta textura e iluminação. O background foi feito a partir de um mapa 3d e os pokémons apresentam iluminação em sua cabeça que muda de acordo com a intensidade da luz.
+O projeto é uma aplicação usando moldes 3D da animação Pokémon. Foram utilizados como base os projetos "viewer1" que apresenta uma implementação de um visualizador de modelos geométricos 3D que permite a interação através do trackball virtual, o "starfields" que é um campo estelar em perspectiva e o "viewer4" que incorpora um shader para modificar as propriedades de reflexão difusa e ambiente do material no modelo de Blinn-Phong, usando texturas. Ele suporta coordenadas de textura definidas nos vértices dos objetos OBJ. Sendo assim, o projeto adota um modelo de iluminação Blinn-Phong que inclui componentes de iluminação ambiental, difusa e especular, proporcionando um realismo aprimorado aos objetos 3D. A texturização é implementada com a aplicação de mapas de texturas e coordenadas UV para mapear imagens em superfícies 3D, criando detalhes e realismo.
+
+O projeto apresenta um Pikachu como objeto principal e no fundo temos um "starfield" de pequenos pikachus. Além disso, o projeto apresenta textura e iluminação. O background foi feito a partir de um mapa 3d e os pokémons apresentam iluminação em sua cabeça que muda de acordo com a intensidade da luz.
 
 ## Controles
 
-É possível rotacionar o Pokémon com o botão esquerdo do mouse e o botão scroll do mouse funciona como zoom, onde é possível visualizar o efeito de sombreamento por causa dos shaders e sua iluminação de acordo com o movimento realizado. Além disso, no canto inferior direito há um seletor onde o usuário pode selecionar os Pokémons para visualização. Todos os pokémons possuem iluminação e alguns possuem textura.
+É possível rotacionar o Pokémon com o botão esquerdo do mouse e o botão scroll do mouse funciona como zoom, onde é possível visualizar o efeito de sombreamento por causa dos shaders e sua iluminação de acordo com o movimento realizado. Além disso, no canto inferior direito há um seletor onde o usuário pode selecionar os Pokémons para visualização. Todos os pokémons possuem iluminação e textura. 
+
+Com o botão direito do mouse é possível movimentar o fundo 3D. Conforme o fundo é movimentado, a iluminação do Pokémon também é alterada considerando a posição da fonte de luz.
 
 ## Alterações realizadas
 
-  - Inclusão de um background 3d para dar a impressão de um fundo contínuo utilizando um mapa 3d
+  - Inclusão de um background 3d para dar a impressão de um fundo contínuo utilizando um mapa 3D:
     
  ```python
 
@@ -57,7 +61,8 @@ void main() {
 }
  ```
 
-- Adição de textura e iluminação para os objetos principais por meio das variáveis uniformes conjuntamente aos vetores normais, tangentes e bitangentes, alinhando os vetores u, v, conforme explicado em aula. Foi aplicado a textura e iluminação no objeto principal (Pikachu e Eeve), nos demais foi aplicado apenas iluminação.
+- Adição de textura e iluminação para os objetos principais por meio das variáveis uniformes conjuntamente aos vetores normais, tangentes e bitangentes, alinhando os vetores u, v, conforme explicado em aula. Foi aplicado a textura e iluminação em todos os objetos.
+
 ```python      
       // Vertex normal
       float nx{};
