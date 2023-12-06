@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib/ccache/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/julia/CG/abcg3/abcg/external/fmt
+CXX_INCLUDES = -I/home/julia/CG/abcg4/abcg4/abcg/external/fmt
 
 CXX_FLAGS = -g -std=gnu++20
 

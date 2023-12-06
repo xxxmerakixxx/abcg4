@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib/ccache/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/local/include -I/usr/include/SDL2 -I/home/julia/CG/abcg3/abcg/external/imgui
+CXX_INCLUDES = -I/opt/local/include -I/usr/include/SDL2 -I/home/julia/CG/abcg4/abcg4/abcg/external/imgui
 
 CXX_FLAGS = -g
 

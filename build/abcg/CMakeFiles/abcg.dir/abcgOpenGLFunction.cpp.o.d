@@ -1,7 +1,7 @@
 abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o: \
- /home/julia/CG/abcg3/abcg/abcgOpenGLFunction.cpp \
+ /home/julia/CG/abcg4/abcg4/abcg/abcgOpenGLFunction.cpp \
  /usr/include/stdc-predef.h \
- /home/julia/CG/abcg3/abcg/abcgOpenGLFunction.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/abcgOpenGLFunction.hpp \
  /usr/include/c++/11/source_location \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -67,10 +67,10 @@ abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o: \
  /usr/include/c++/11/bits/ranges_base.h \
  /usr/include/c++/11/bits/max_size_type.h /usr/include/c++/11/numbers \
  /usr/include/c++/11/bits/string_view.tcc \
- /home/julia/CG/abcg3/abcg/abcgOpenGLExternal.hpp /usr/include/GL/glew.h \
- /usr/include/c++/11/cstddef /usr/include/GL/glu.h /usr/include/GL/gl.h \
- /home/julia/CG/abcg3/abcg/abcgOpenGLError.hpp \
- /home/julia/CG/abcg3/abcg/abcgException.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/abcgOpenGLExternal.hpp \
+ /usr/include/GL/glew.h /usr/include/c++/11/cstddef /usr/include/GL/glu.h \
+ /usr/include/GL/gl.h /home/julia/CG/abcg4/abcg4/abcg/abcgOpenGLError.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/abcgException.hpp \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \

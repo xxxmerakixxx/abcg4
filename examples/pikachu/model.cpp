@@ -148,12 +148,12 @@ void Model::createBuffers() {
 void Model::loadCubeTexture(const std::string_view path) {
   if (!std::filesystem::exists(path)) return;
 
-  auto basePath1{std::filesystem::path{path}.parent_path().string() + "/posx.jpg"};
-  auto basePath2{std::filesystem::path{path}.parent_path().string() + "/negx.jpg"};
-  auto basePath3{std::filesystem::path{path}.parent_path().string() + "/posy.jpg"};
-  auto basePath4{std::filesystem::path{path}.parent_path().string() + "/negy.jpg"};
-  auto basePath5{std::filesystem::path{path}.parent_path().string() + "/posz.jpg"};
-  auto basePath6{std::filesystem::path{path}.parent_path().string() + "/negz.jpg"};
+  auto basePath1{std::filesystem::path{path}.parent_path().string() + "/posx.png"};
+  auto basePath2{std::filesystem::path{path}.parent_path().string() + "/negx.png"};
+  auto basePath3{std::filesystem::path{path}.parent_path().string() + "/posy.png"};
+  auto basePath4{std::filesystem::path{path}.parent_path().string() + "/negy.png"};
+  auto basePath5{std::filesystem::path{path}.parent_path().string() + "/posz.png"};
+  auto basePath6{std::filesystem::path{path}.parent_path().string() + "/negz.png"};
 
   abcg::glDeleteTextures(1, &m_cubeTexture);
   m_cubeTexture = abcg::loadOpenGLCubemap({basePath1,basePath2,basePath3,basePath4,basePath5,basePath6});

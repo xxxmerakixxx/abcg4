@@ -1,4 +1,4 @@
-# Install script for directory: /home/julia/CG/abcg3/examples/pikachu
+# Install script for directory: /home/julia/CG/abcg4/abcg4/examples/pikachu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

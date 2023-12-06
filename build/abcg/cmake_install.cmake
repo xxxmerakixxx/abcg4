@@ -1,4 +1,4 @@
-# Install script for directory: /home/julia/CG/abcg3/abcg
+# Install script for directory: /home/julia/CG/abcg4/abcg4/abcg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/julia/CG/abcg3/build/abcg/external/cmake_install.cmake")
+  include("/home/julia/CG/abcg4/abcg4/build/abcg/external/cmake_install.cmake")
 endif()
 

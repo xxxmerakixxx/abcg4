@@ -1,6 +1,6 @@
 abcg/CMakeFiles/abcg.dir/abcgTimer.cpp.o: \
- /home/julia/CG/abcg3/abcg/abcgTimer.cpp /usr/include/stdc-predef.h \
- /home/julia/CG/abcg3/abcg/abcgTimer.hpp /usr/include/c++/11/chrono \
+ /home/julia/CG/abcg4/abcg4/abcg/abcgTimer.cpp /usr/include/stdc-predef.h \
+ /home/julia/CG/abcg4/abcg4/abcg/abcgTimer.hpp /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

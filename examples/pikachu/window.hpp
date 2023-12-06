@@ -56,7 +56,7 @@ private:
   const std::vector<const char *> m_shaderNames{"texture"};
   std::vector<GLuint> m_programs;
   int m_currentProgramIndex{0};
-  const std::vector<const char *> m_pokemonNames{"PIKACHU", "EEVEE", "EKANS", "JIGGLYPUFF"};
+  const std::vector<const char *> m_pokemonNames{"PIKACHU", "ASUNA", "MEWTWO", "ZUBAT"};
   int m_currentPokemonIndex{0};
   int m_mappingMode{3};
 

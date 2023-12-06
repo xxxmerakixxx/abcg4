@@ -1,4 +1,4 @@
-# Install script for directory: /home/julia/CG/abcg3/abcg/external/imgui
+# Install script for directory: /home/julia/CG/abcg4/abcg4/abcg/external/imgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

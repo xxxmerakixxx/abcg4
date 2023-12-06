@@ -1,8 +1,9 @@
 abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o: \
- /home/julia/CG/abcg3/abcg/abcgImage.cpp /usr/include/stdc-predef.h \
- /home/julia/CG/abcg3/abcg/abcgImage.hpp /usr/include/SDL2/SDL_image.h \
- /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
- /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
+ /home/julia/CG/abcg4/abcg4/abcg/abcgImage.cpp /usr/include/stdc-predef.h \
+ /home/julia/CG/abcg4/abcg4/abcg/abcgImage.hpp \
+ /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h \
+ /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h \
+ /usr/include/SDL2/SDL_config.h \
  /usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h \
  /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/begin_code.h \
  /usr/include/SDL2/close_code.h /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -219,9 +220,9 @@ abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o: \
  /usr/include/SDL2/SDL_shape.h /usr/include/SDL2/SDL_system.h \
  /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h \
  /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h \
- /home/julia/CG/abcg3/abcg/external/cppitertools/itertools.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/accumulate.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/internal/iterator_wrapper.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/itertools.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/accumulate.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/internal/iterator_wrapper.hpp \
  /usr/include/c++/11/cassert /usr/include/assert.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/stl_function.h \
  /usr/include/c++/11/backward/binders.h /usr/include/c++/11/tuple \
@@ -256,7 +257,7 @@ abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o: \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/variant \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/julia/CG/abcg3/abcg/external/cppitertools/internal/iterbase.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/internal/iterbase.hpp \
  /usr/include/c++/11/cstddef /usr/include/c++/11/iterator \
  /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
@@ -306,9 +307,9 @@ abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o: \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/optional \
- /home/julia/CG/abcg3/abcg/external/cppitertools/internal/iterbase.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/batched.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/internal/iteratoriterator.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/internal/iterbase.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/batched.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/internal/iteratoriterator.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/ranges_algo.h \
  /usr/include/c++/11/bits/ranges_algobase.h \
  /usr/include/c++/11/bits/ranges_util.h \
@@ -357,49 +358,49 @@ abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o: \
  /usr/include/c++/11/bits/ranges_uninitialized.h \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/julia/CG/abcg3/abcg/external/cppitertools/chain.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/internal/iter_tuples.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/internal/iterator_wrapper.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/chunked.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/combinations.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/combinations_with_replacement.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/compress.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/count.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/range.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/cycle.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/dropwhile.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/filter.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/enumerate.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/filterfalse.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/groupby.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/imap.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/starmap.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/zip.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/permutations.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/powerset.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/product.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/repeat.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/reversed.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/slice.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/sliding_window.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/chain.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/internal/iter_tuples.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/internal/iterator_wrapper.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/chunked.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/combinations.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/combinations_with_replacement.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/compress.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/count.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/range.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/cycle.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/dropwhile.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/filter.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/enumerate.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/filterfalse.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/groupby.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/imap.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/starmap.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/zip.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/permutations.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/powerset.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/product.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/repeat.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/reversed.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/slice.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/sliding_window.hpp \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc \
- /home/julia/CG/abcg3/abcg/external/cppitertools/sorted.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/takewhile.hpp \
- /home/julia/CG/abcg3/abcg/external/cppitertools/unique_everseen.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/sorted.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/takewhile.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/unique_everseen.hpp \
  /usr/include/c++/11/unordered_set \
  /usr/include/c++/11/bits/unordered_set.h \
- /home/julia/CG/abcg3/abcg/external/cppitertools/unique_justseen.hpp \
- /home/julia/CG/abcg3/abcg/external/gsl/gsl \
- /home/julia/CG/abcg3/abcg/external/gsl/gsl_algorithm \
- /home/julia/CG/abcg3/abcg/external/gsl/gsl_assert \
- /home/julia/CG/abcg3/abcg/external/gsl/span \
- /home/julia/CG/abcg3/abcg/external/gsl/gsl_byte \
- /home/julia/CG/abcg3/abcg/external/gsl/gsl_util \
- /home/julia/CG/abcg3/abcg/external/gsl/multi_span \
+ /home/julia/CG/abcg4/abcg4/abcg/external/cppitertools/unique_justseen.hpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/gsl/gsl \
+ /home/julia/CG/abcg4/abcg4/abcg/external/gsl/gsl_algorithm \
+ /home/julia/CG/abcg4/abcg4/abcg/external/gsl/gsl_assert \
+ /home/julia/CG/abcg4/abcg4/abcg/external/gsl/span \
+ /home/julia/CG/abcg4/abcg4/abcg/external/gsl/gsl_byte \
+ /home/julia/CG/abcg4/abcg4/abcg/external/gsl/gsl_util \
+ /home/julia/CG/abcg4/abcg4/abcg/external/gsl/multi_span \
  /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /home/julia/CG/abcg3/abcg/external/gsl/pointers \
- /home/julia/CG/abcg3/abcg/external/gsl/string_span \
- /home/julia/CG/abcg3/abcg/external/gsl/span_ext \
+ /home/julia/CG/abcg4/abcg4/abcg/external/gsl/pointers \
+ /home/julia/CG/abcg4/abcg4/abcg/external/gsl/string_span \
+ /home/julia/CG/abcg4/abcg4/abcg/external/gsl/span_ext \
  /usr/include/c++/11/cstring /usr/include/c++/11/span

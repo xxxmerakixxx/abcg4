@@ -1,8 +1,8 @@
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o: \
- /home/julia/CG/abcg3/abcg/external/imgui/imgui_impl_sdl2.cpp \
+ /home/julia/CG/abcg4/abcg4/abcg/external/imgui/imgui_impl_sdl2.cpp \
  /usr/include/stdc-predef.h \
- /home/julia/CG/abcg3/abcg/external/imgui/imgui.h \
- /home/julia/CG/abcg3/abcg/external/imgui/imconfig.h \
+ /home/julia/CG/abcg4/abcg4/abcg/external/imgui/imgui.h \
+ /home/julia/CG/abcg4/abcg4/abcg/external/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/include/string.h \
@@ -17,7 +17,7 @@ abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/julia/CG/abcg3/abcg/external/imgui/imgui_impl_sdl2.h \
+ /home/julia/CG/abcg4/abcg4/abcg/external/imgui/imgui_impl_sdl2.h \
  /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
  /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
  /usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h \
